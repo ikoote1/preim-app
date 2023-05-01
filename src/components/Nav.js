@@ -1,9 +1,14 @@
 import { BsChevronLeft } from 'react-icons/bs';
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
     return(
-        <div>preim</div>
+        <nav>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/product">Product</NavLink>
+            <NavLink to="order">Order</NavLink>
+        </nav>
     )
 }
 
