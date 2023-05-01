@@ -1,5 +1,8 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
+import home from './components/home';
+import product from './components/product';
+import order from './components/order';
 
 function App() {
   return (
