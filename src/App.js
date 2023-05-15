@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.css';
-// import { Routes, Route } from 'react-router-dom';
-
+import { Routes, Route } from 'react-router-dom';
+import { Home, Contact } from './Pages';
+import { Header, Contact } from './components'
 
 function App() {
   return (
     <div className="App">
-        <h1>Hello world</h1>
-      {/* <Routes>
+        <Header />
+      <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/product" element={<Product />} />
-        <Route path="/order" element={<Order />} />
-      </Routes> */}
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
