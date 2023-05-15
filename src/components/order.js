@@ -1,12 +1,12 @@
-import React from "react";
+// import React from "react";
 
-const Order = () => {
-    return(
-        <div>
-            <h1>order</h1>
-            <h1>order</h1>
-        </div>
-    )
-}
+// const Order = () => {
+//     return(
+//         <div>
+//             <h1>order</h1>
+//             <h1>order</h1>
+//         </div>
+//     )
+// }
 
-export default Order;
+// export default Order;
